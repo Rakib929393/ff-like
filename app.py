@@ -114,7 +114,7 @@ def get_player_info():
         url = "https://clientbp.common.ggbluefox.com/GetPlayerPersonalShow"
         headers = {
             'X-Unity-Version': '2018.4.11f1',
-            'ReleaseVersion': 'OB48',
+            'ReleaseVersion': 'OB49',
             'Content-Type': 'application/x-www-form-urlencoded',
             'X-GA': 'v1 1',
             'Authorization': f'Bearer {jwt_token}',
