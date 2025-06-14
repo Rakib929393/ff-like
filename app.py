@@ -24,7 +24,7 @@ def get_jwt():
         response = requests.get(JWT_GEN_URL, params=params)
         if response.status_code == 200:
             jwt_data = response.json()
-            return jwt_data.get("JWT TOKEN")
+            return jwt_data.get("token")
         return None
     except Exception as e:
         return None
