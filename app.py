@@ -12,7 +12,7 @@ app = Flask(__name__)
 # FF INFO ACC 
 DEFAULT_UID = "3904945279"
 DEFAULT_PASS = "4FE8566931F5D169E11607A3BF62B478C3A891C9B9FB02B600C25C019D1E0D10"
-JWT_GEN_URL = "https://projects-fox-x-get-jwt.vercel.app/get"
+JWT_GEN_URL = "https://jwt-token-tau.vercel.app/get-token"
 
 # GET JWT
 def get_jwt():
